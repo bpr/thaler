@@ -3,7 +3,7 @@ extern crate lazy_static;
 
 use ark_bls12_381::Fr as ScalarField;
 use ark_poly::polynomial::multivariate::{SparsePolynomial, SparseTerm, Term};
-use ark_poly::polynomial::MVPolynomial;
+use ark_poly::polynomial::DenseMVPolynomial;
 use rstest::rstest;
 use thaler::sumcheck;
 
